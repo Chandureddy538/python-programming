@@ -1,0 +1,8 @@
+Name=input("enter the name:")
+Email=input("enter the email:")
+phone=int(input("enter the phone:"))
+address=input("enter the address:")
+print("enter name=",Name)
+print("enter email=",Email)
+print("enter phone=",phone)
+print("enter address=",address) 
