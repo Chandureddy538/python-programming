@@ -1,0 +1,15 @@
+n=int(input("enter no of values to enter: "))
+d={}
+for i in range(n):
+    key = input("enter key : ")
+    value = int(input("Enter value : "))
+    d[key]=value
+    
+print("before swapping")
+print(d)
+swap_d={}
+for i in d:
+    swap_d[d[i]]=i
+    
+print("After swap")
+print(swap_d)
